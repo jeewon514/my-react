@@ -4,10 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// 라이브러리 컴포넌트 임포트
+import Library from "./chapter_03/Library";
+
+// ReactDOM을 사용해 root DOM node에 렌더링
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Library />
   </React.StrictMode>
 );
 
