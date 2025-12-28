@@ -13,9 +13,10 @@ import SignUp from './chapter_11/SignUp';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <SignUp />                // 원하는 컴포넌트로 변경하여 렌더링
+    <SignUp />
   </React.StrictMode>
 );
+// 원하는 컴포넌트로 변경하여 렌더링
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
